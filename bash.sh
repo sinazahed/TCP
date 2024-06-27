@@ -124,7 +124,7 @@ case $CHS in
     read -r -p "RTT PASS(Default is: Armani@bash): " TOPASS
     TOPASS=${TOPASS:-"Armani@bash"}
     read -r -p "RTT SNI(Default is: aparat.com): " SNI
-    SNI=${SNI:-"cloudflare.com"}
+    SNI=${SNI:-"aparat.com"}
     read -r -p "RTT Restart Time(Default is: 24): " TERM
     TERM=${TERM:-"24"}
     sleep 3
@@ -141,8 +141,8 @@ case $CHS in
     read -r -p "RTT IP(Enter Iran IP): " EXIP
     read -r -p "RTT PASS(Default is: Armani@bash): " TOPASS
     TOPASS=${TOPASS:-"Armani@bash"}
-    read -r -p "RTT SNI(Default is: cloudflare.com): " SNI
-    SNI=${SNI:-"cloudflare.com"}
+    read -r -p "RTT SNI(Default is: aparat.com): " SNI
+    SNI=${SNI:-"aparat.com"}
     read -r -p "RTT Restart Time(Default is: 24): " TERM
     TERM=${TERM:-"24"}
     sleep 3
