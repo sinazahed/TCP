@@ -100,8 +100,8 @@ Description=Reverse TLS Tunnel
 [Service]
 Type=idle
 User=root
-WorkingDirectory=/root
-ExecStart=/root/RTT --kharej --iran-ip:$EXIP --iran-port:$IRPORTTT --toip:$TOIP --toport:$TOPORT --password:$TOPASS --sni:$SNI --terminate:$TERM
+WorkingDirectory=/
+ExecStart=/RTT --kharej --iran-ip:$EXIP --iran-port:$IRPORTTT --toip:$TOIP --toport:$TOPORT --password:$TOPASS --sni:$SNI --terminate:$TERM
 Restart=always
 
 [Install]
