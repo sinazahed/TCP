@@ -123,7 +123,7 @@ case $CHS in
     echo "Multiport is activated all ports above 22 were forwarded"
     read -r -p "RTT PASS(Default is: Armani@bash): " TOPASS
     TOPASS=${TOPASS:-"Armani@bash"}
-    read -r -p "RTT SNI(Default is: cloudflare.com): " SNI
+    read -r -p "RTT SNI(Default is: aparat.com): " SNI
     SNI=${SNI:-"cloudflare.com"}
     read -r -p "RTT Restart Time(Default is: 24): " TERM
     TERM=${TERM:-"24"}
